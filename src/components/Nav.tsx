@@ -1,11 +1,14 @@
 import { PROFILE } from '../data';
+import portrait from '../assets/portrait.jpg';
 
 export default function Nav() {
   return (
     <nav className="bar">
       <div className="wrap inner">
         <a className="brand" href="#home">
-          <span className="avatar">LM</span>
+          <span className="avatar">
+            <img src={portrait} alt={PROFILE.fullName} />
+          </span>
           {PROFILE.name}
         </a>
         <div className="links">
