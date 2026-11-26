@@ -34,13 +34,6 @@ export default function Contact() {
               {copied === 'email' ? 'Copied ✓' : 'Copy'}
             </button>
           </li>
-          <li>
-            <span className="k">Phone</span>
-            <a href={`tel:${PROFILE.phoneHref}`}>{PROFILE.phone}</a>
-            <button className="copy-btn" onClick={() => copy('phone', PROFILE.phone)}>
-              {copied === 'phone' ? 'Copied ✓' : 'Copy'}
-            </button>
-          </li>
         </ul>
       </Reveal>
     </section>

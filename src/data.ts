@@ -11,8 +11,6 @@ export const PROFILE = {
   name: 'Lydiah Mwanu',
   fullName: 'Lydiah Wamucii Mwanu',
   email: 'lydiahwamucii7@gmail.com',
-  phone: '0725 783 118',
-  phoneHref: '+254725783118',
   roles: ['Software Developer', 'Web Developer', 'ICT Intern', 'Lifelong Learner'],
 } as const;
 
