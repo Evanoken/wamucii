@@ -2,14 +2,16 @@
     --bg: #07131B;
     --bg-soft: #0C1F2B;
     --card: #15291D;
-    --ink: #E9F2EB;
-    --ink-soft: #9DB5A4;
+    --ink: #F1F7F2;
+    --ink-soft: #BBD0C2;
     --leaf: #58B883;
     --leaf-bright: #7FD6A4;
     --gold: #E3B341;
     --line: rgba(157, 181, 164, 0.18);
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { user-select: none; -webkit-user-select: none; }
+  img { -webkit-user-drag: none; user-drag: none; }
   html { scroll-behavior: smooth; }
   body {
     background: radial-gradient(ellipse 130% 90% at 75% 110%, #10293E 0%, #07131B 45%, #050B10 100%);
@@ -82,7 +84,7 @@
     line-height: 1.08;
     margin: 0.8rem 0 1.4rem;
   }
-  .typed-line { color: var(--ink-soft); font-weight: 600; display: block; }
+  .typed-line { color: #DCEAE0; font-weight: 600; display: block; }
   .typed-line .caret { color: var(--gold); font-weight: 400; }
   .hero .lede { max-width: 48ch; color: var(--ink-soft); font-size: clamp(1.05rem, 2vw, 1.2rem); }
   .hero-cta { margin-top: 2.2rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
